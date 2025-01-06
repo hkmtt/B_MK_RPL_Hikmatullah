@@ -1,4 +1,4 @@
-Berikut ini merupakan Link pengumpulan:
+Berikut ini merupakan Link pengumpulan Projeck RPL:
 
 1. link Trello
 https://trello.com/b/O97W5QvY/pusdati-himadikti
