@@ -1,0 +1,53 @@
+Langkah 1: Memahami Data
+Pengumpulan Data: Pastikan Anda memiliki akses ke dataset yang berisi data dari akselerometer yang diambil dari peserta saat melakukan latihan angkat beban. Dataset ini harus mencakup variabel target (kelas) yang ingin Anda prediksi, serta fitur-fitur lain yang relevan.
+
+Eksplorasi Data: Lakukan analisis eksplorasi data (EDA) untuk memahami struktur data, distribusi variabel, dan hubungan antara fitur dan variabel target. Gunakan visualisasi untuk membantu dalam analisis ini.
+
+Langkah 2: Membangun Model
+Pra-pemrosesan Data: Lakukan pra-pemrosesan data, termasuk:
+
+Menangani nilai yang hilang.
+Normalisasi atau standardisasi fitur jika diperlukan.
+Mengubah variabel kategorikal menjadi variabel numerik (one-hot encoding).
+Pemilihan Model: Pilih algoritma pembelajaran mesin yang sesuai untuk masalah klasifikasi. Beberapa algoritma yang umum digunakan adalah:
+
+Regresi Logistik
+Decision Trees
+Random Forest
+Support Vector Machines (SVM)
+Neural Networks
+Pelatihan Model: Bagi dataset menjadi set pelatihan dan set pengujian. Latih model Anda menggunakan set pelatihan.
+
+Langkah 3: Validasi Silang
+Implementasi Validasi Silang: Gunakan teknik validasi silang (cross-validation) untuk mengevaluasi kinerja model. Misalnya, Anda dapat menggunakan k-fold cross-validation untuk mendapatkan estimasi yang lebih baik tentang bagaimana model Anda akan bekerja pada data yang tidak terlihat.
+
+Evaluasi Model: Gunakan metrik evaluasi seperti akurasi, precision, recall, dan F1-score untuk menilai kinerja model Anda. Bandingkan hasil dari berbagai model jika Anda mencoba beberapa algoritma.
+
+Langkah 4: Mengatasi Kesalahan di Luar Sampel
+Analisis Kesalahan: Identifikasi dan analisis kesalahan yang mungkin terjadi di luar sampel. Pertimbangkan faktor-faktor seperti:
+
+Overfitting: Apakah model terlalu kompleks?
+Underfitting: Apakah model terlalu sederhana?
+Data yang tidak seimbang: Apakah ada kelas yang kurang terwakili?
+Peningkatan Model: Berdasarkan analisis kesalahan, lakukan perbaikan pada model Anda. Ini bisa termasuk pengaturan hyperparameter, menambahkan fitur baru, atau menggunakan teknik ensemble.
+
+Langkah 5: Prediksi Kasus Uji
+Prediksi: Gunakan model yang telah dilatih untuk memprediksi 20 kasus uji yang telah disediakan. Pastikan format output sesuai dengan yang diminta.
+
+Pengiriman: Kirimkan prediksi Anda dalam format yang sesuai ke Kuis Prediksi Proyek Kursus.
+
+Langkah 6: Menyusun Laporan
+R Markdown: Buat laporan analisis menggunakan R Markdown. Pastikan untuk menyertakan:
+
+Deskripsi tentang bagaimana Anda membangun model.
+Penjelasan tentang penggunaan validasi silang.
+Analisis kesalahan di luar sampel.
+Visualisasi yang relevan (maksimal 5 gambar).
+HTML Terkompilasi: Kompilasi laporan Anda menjadi file HTML dan pastikan untuk mengunggahnya ke repositori GitHub Anda.
+
+Repositori GitHub: Buat repositori GitHub dengan cabang gh-pages untuk memudahkan penilai mengakses laporan Anda secara online.
+
+Tips Tambahan
+Reproduksibilitas: Pastikan bahwa semua kode dan analisis dapat direproduksi. Sertakan instruksi yang jelas dalam README repositori Anda.
+Batasan Teks: Jaga agar teks penulisan Anda tetap di bawah 2000 kata. Fokus pada kejelasan dan ringkasan informasi yang relevan.
+Uji Coba: Sebelum mengirimkan, lakukan uji coba untuk memastikan bahwa semua bagian berfungsi dengan baik dan tidak ada kesalahan.
